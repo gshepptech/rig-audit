@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RigAudit.Core\RigAudit.Core.csproj" />
+    <ProjectReference Include="..\RigAudit.Collectors\RigAudit.Collectors.csproj" />
+    <ProjectReference Include="..\RigAudit.Export\RigAudit.Export.csproj" />
+  </ItemGroup>
+
+</Project>

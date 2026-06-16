@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Rig Audit Pro — read-only Windows audits for gamers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2027"/>
+      <stop offset="0.55" stop-color="#203A43"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.12" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="200" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="200" rx="20" fill="url(#glow)"/>
+
+  <!-- magnifier-over-chip mark -->
+  <g transform="translate(78,80)" fill="none" stroke="#5EEAD4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-26" y="-26" width="40" height="40" rx="7" stroke="#7DD3FC" stroke-width="4"/>
+    <line x1="-18" y1="-6" x2="-10" y2="-6" stroke="#7DD3FC" stroke-width="4"/>
+    <line x1="-18" y1="4" x2="-4" y2="4" stroke="#7DD3FC" stroke-width="4"/>
+    <circle cx="10" cy="8" r="17" stroke="#ffffff"/>
+    <line x1="22" y1="20" x2="34" y2="32" stroke="#ffffff" stroke-width="6"/>
+  </g>
+
+  <text x="132" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="-1">Rig Audit Pro</text>
+  <text x="135" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#E2F4F1" opacity="0.97">Read-only Windows audits for gamers. See everything. Change nothing.</text>
+  <rect x="135" y="150" width="540" height="28" rx="14" fill="#5EEAD4" opacity="0.14"/>
+  <text x="151" y="169" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#CFFafe" opacity="0.95">8 collectors · 5 findings rules · share-safe export · zero network</text>
+</svg>
